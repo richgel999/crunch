@@ -1,4 +1,4 @@
-CXXFLAGS = -O3 -fomit-frame-pointer -ffast-math -fno-math-errno -g -fno-strict-aliasing -Wall -Wno-unused-value -Wno-unused -march=core2
+CXXFLAGS = -O3 -fomit-frame-pointer -ffast-math -fno-math-errno -g -fno-strict-aliasing -Wall -Wno-unused-value -Wno-unused -march=native
 LDFLAGS = -lpthread -g
 
 OBJECTS = \
